@@ -11,17 +11,19 @@ const StyledSkill = styled.div`
 
 
 function Skills({ content, isMobile }) {
-    console.log(content)
+
     const { hard, soft } = content;
+    console.log("hard", hard)
     return (
         <div>
             <h2>Technical Skills</h2>
             {
-                hard.map((h, idx) => (
+                hard.map((skill, idx) => (
+                    <>
                     <StyledSkill key={idx}>
-                        <p style={{ flex: 1 }}>{h.name}</p>
-                        <ProgressBar style={{ flex: 1 }} width={isMobile ? 150 : 200} percent={h.progress} />
+                    <img src={skill?.img?.default}  style={{ flex: 1 }} />
                     </StyledSkill>
+                    </>
                 ))
             }
             <br />
