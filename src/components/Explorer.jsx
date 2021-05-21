@@ -17,7 +17,7 @@ function Explorer({ items, closeExplorer, openNotepad, isMobile }) {
     return (
         <>
         <Modal
-            icon="help_16x16_4bit"
+            icon="blank_screen_100_32x32_4bit"
             title="Explorer - Mosaab Abbas"
             closeModal={closeExplorer}
             style={{

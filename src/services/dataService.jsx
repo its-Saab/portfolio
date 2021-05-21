@@ -1,7 +1,7 @@
 
 export default class DataService {
   _data = {
-      projectRepo: "https://github.com/InsafKhamzin/portfolio",
+      projectRepo: "https://github.com/its-Saab/portfolio",
       react95Repo: "https://github.com/React95/React95",
       items: [
           {
@@ -94,19 +94,10 @@ export default class DataService {
                           repo:"https://github.com/its-Saab/TODO-List"
                       },
                       {
-                          title:"CryptoBot",
-                          description:"CryptoBot is a Telegram chatbot that provides updated info about every existing cryptocurrency.",
-                          techStack: "Node.js, Serverless, AWS S3, Telegram API",
-                          url:"https://t.me/crypto_info1_bot",
-                          repo:"https://github.com/InsafKhamzin/crypto-info-bot"
-                      },
-
-                      {
                           title:"My Portfolio Site",
-                          description:"My personal website in old-school Windows95 design.",
+                          description:"Portfolio using React95 library",
                           techStack: "React",
-                          //TODO fix github repo
-                          repo: "https://github.com/InsafKhamzin/portfolio",
+                          repo: "https://github.com/its-Saab/portfolio",
                       },
                   ]
               }
