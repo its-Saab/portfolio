@@ -39,7 +39,7 @@ function Taskbar() {
 				</List>
 			}
 			/>
-			<Button style={{position:"absolute", top:"0",right:"0"}} onClick={() => clippy.play('Wave')}>Hello Clippy!</Button>
+			<Button style={{position:"absolute", top:"0",right:"0"}} onClick={() => clippy.play('Wave')}>Hello Merlin!</Button>
 			</>
 	);
 }
