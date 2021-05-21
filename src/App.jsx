@@ -1,6 +1,6 @@
 //npm packages
 import React from "react";
-import { GlobalStyle, ThemeProvider, Button } from "@react95/core";
+import { GlobalStyle, ThemeProvider } from "@react95/core";
 import { createGlobalStyle } from "styled-components";
 import { ClippyProvider, AGENTS } from "@react95/clippy";
 
