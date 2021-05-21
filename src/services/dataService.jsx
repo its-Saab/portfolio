@@ -22,7 +22,7 @@ export default class DataService {
               name: 'Resume.txt',
               image: require('../assets/cv.ico'),
               content: {
-                  resumeLink:"https://drive.google.com/file/d/1bOr1kcqmQwdUhzlmkK_RFInL8OyG1b4N/view?usp=sharing",
+                  resumeLink:"https://drive.google.com/file/d/1_yu5jqxzyzBIGW5a1NfgD6AkfxS4vwz0/view?usp=sharing",
                   workExperience: [
                       {
                           jobTitle: "Civil Engineer",
@@ -81,14 +81,14 @@ export default class DataService {
                   projects:[
                       {
                           title:"Landing Page",
-                          description:"Landing page is an react application to help solve the immigrants integration problem ",
+                          description:"Group chat application dedicated to help immigrants with their integration questions",
                           myRole: "Frontend developer",
-                          techStack:"JavaScript, PostgreSQL, React, Java",
+                          techStack:"JavaScript, PostgreSQL, React, Java, firebase, webpack",
                           repo:"https://github.com/its-Saab/LandingPage"
                       },
                       {
                           title:"TODOLY",
-                          description:"ToDoLy is a Todo list Java application via the command-line. I developed this todo List to help me with my daily tasks",
+                          description:"ToDoLy is a command line tool to help users add/monitor daily tasks.",
                           myRole: "",
                           techStack: "Java,Gradle",
                           repo:"https://github.com/its-Saab/TODO-List"
@@ -96,7 +96,7 @@ export default class DataService {
                       {
                           title:"My Portfolio Site",
                           description:"Portfolio using React95 library",
-                          techStack: "React",
+                          techStack: "JavaScript, React, firebase, webpack",
                           repo: "https://github.com/its-Saab/portfolio",
                       },
                   ]
@@ -110,39 +110,39 @@ export default class DataService {
                   hard: [
                       {
                           name: "JavaScript",
-                          progress: 80
+                          img:require('../assets/javascript.png')
                       },
                       {
                           name: "Java",
-                          progress: 70
+                          img:require('../assets/java.png')
                       },
                       {
                           name: "React",
-                          progress: 80
+                          img:require('../assets/react.jpg')
                       },
                       {
                           name: "Node.js",
-                          progress: 70
+                          img:require('../assets/node.png')
                       },
 
                       {
                           name: "Git",
-                          progress: 80
+                          img:require('../assets/git.png')
                       },
                       {
                           name: "MongoDB",
-                          progress: 80
+                          img:require('../assets/mongodb.png')
                       },
                       {
                           name: "GraphQL/Apollo Client",
-                          progress: 60
+                          img:require('../assets/graphQl.png')
                       },
                       {
                           name: "Next.js",
-                          progress: 70
+                          img:require('../assets/nextjs.png')
                       }
                   ],
-                  soft: "Analytical thinking, Teamwork, Creative Problem solving, Mangement"
+                  soft: "Analytical thinking, Teamwork, Creative Problem solving, Time Mangement"
               }
           },
           {
@@ -150,7 +150,7 @@ export default class DataService {
               name: 'Contact.txt',
               image: require('../assets/contact.ico'),
               content: {
-                  emailText: "If you have a position to offer or invite to a project, just email me on ",
+                  emailText: "I'm available for hire, let's have a chat ",
                   email: "musaababs@gmail.com",
                   socialText: "Or you can reach me out through social media:",
                   social: [
@@ -161,10 +161,6 @@ export default class DataService {
                       {
                           name: "FaGithub",
                           link: "https://github.com/its-Saab"
-                      },
-                      {
-                          name: "FaInstagram",
-                          link: "https://www.instagram.com/_mosabbas"
                       }
                   ]
               }
