@@ -2,7 +2,7 @@
 import React from "react";
 import { GlobalStyle, ThemeProvider } from "@react95/core";
 import { createGlobalStyle } from "styled-components";
-import { ClippyProvider, AGENTS } from "@react95/clippy";
+import { ClippyProvider } from "@react95/clippy";
 
 //Project files
 import Taskbar from "./components/Taskbar";
@@ -25,7 +25,7 @@ const App = () => {
 				<GlobalStyle />
 				<BodyFontSizeOverride />
 					<Desktop />
-				<ClippyProvider agentName={AGENTS.MERLIN}>
+				<ClippyProvider>
 				<Taskbar />
 				</ClippyProvider>
 			</ThemeProvider>
