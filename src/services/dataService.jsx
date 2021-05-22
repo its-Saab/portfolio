@@ -13,7 +13,7 @@ export default class DataService {
                       "Hi! I am a Software Developer based in Sweden, just finished the Software Development Academy - KTH and I am very excited to start my career in Sweden.",
                       "I believe that friendly and respectful communication within a team is key to the company's success. With my experience in software development, I think I would be a valuable asset to your project.",
                       "The main technology I have been using is React and I use it for most of my side projects.",
-                      "When I am not in front of the computer, I usually workout, enjoy good coffee and take quick walks in the beatiful Swedish nature."
+                      "When I am not in front of the computer, I usually workout, enjoy good coffee and take quick walks in the beautiful Swedish nature."
                   ]
               }
           },
