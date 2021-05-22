@@ -22,7 +22,7 @@ export default class DataService {
               name: 'Resume.txt',
               image: require('../assets/cv.ico'),
               content: {
-                  resumeLink:"https://drive.google.com/file/d/1_yu5jqxzyzBIGW5a1NfgD6AkfxS4vwz0/view?usp=sharing",
+                  resumeLink:"https://drive.google.com/file/d/1DaAQXEdqn-UfbDfIEn7Spb_yozg0EnEA/view?usp=sharing",
                   workExperience: [
                       {
                           jobTitle: "Civil Engineer",
