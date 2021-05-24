@@ -17,12 +17,26 @@ function Shortcuts({ openExplorer }) {
 	return (
 		<div>
 			<StyledShorcut>
-				<img src={blankComputer} alt="blank" onClick={() => openExplorer()} />
-				<div>Explorer</div>
+				<img
+					style={{ cursor: "pointer" }}
+					src={blankComputer}
+					alt="blank"
+					onClick={() => openExplorer()}
+				/>
+				<div>
+				<small onClick={() => openExplorer()} style={{ cursor: "pointer" }}>Explorer</small>
+				</div>
 			</StyledShorcut>
 			<StyledShorcut>
-				<img src={audioCd} alt="audio" onClick={() => startWebamp()} />
-				<div>Media</div>
+				<img
+					style={{ cursor: "pointer" }}
+					src={audioCd}
+					alt="audio"
+					onClick={() => startWebamp()}
+				/>
+				<div >
+					<small style={{ cursor: "pointer" }}	onClick={() => startWebamp()}>Media</small>
+				</div>
 			</StyledShorcut>
 		</div>
 	);
