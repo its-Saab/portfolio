@@ -1,6 +1,5 @@
 //npm packages
 import React from 'react'
-import { ProgressBar } from '@react95/core'
 import styled from 'styled-components'
 
 const StyledSkill = styled.div`
@@ -13,22 +12,22 @@ const StyledSkill = styled.div`
 function Skills({ content, isMobile }) {
 
     const { hard, soft } = content;
-    console.log("hard", hard)
     return (
-        <div>
+        <div className="skills">
             <h2>Technical Skills</h2>
+            <div className="skills__grid">
             {
                 hard.map((skill, idx) => (
-                    <>
+                    <div className="skills__grid--item">
                     <StyledSkill key={idx}>
-                    <img src={skill?.img?.default}  style={{ flex: 1 }} />
+                    <img className="skills__grid--img" src={skill?.img?.default}  style={{ flex: 1 }} />
                     </StyledSkill>
-                    </>
+                    </div>
                 ))
             }
-            <br />
+            </div>
             <h2>Interpersonal Skills</h2>
-            <p>{soft}</p>
+            <p className="skills--paragraph">{soft}</p>
 
         </div>
     )
