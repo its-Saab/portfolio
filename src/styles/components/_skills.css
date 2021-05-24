@@ -1,0 +1,13 @@
+.skills__grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+}
+
+.skills__grid--img{
+  width: 10px;
+}
+
+.skills--paragraph{
+  font-family: 'Courier New', Courier, monospace;
+}
