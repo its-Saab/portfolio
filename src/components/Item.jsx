@@ -1,7 +1,6 @@
 //npm packages
-import React from 'react'
-import styled from 'styled-components'
-
+import React from "react";
+import styled from "styled-components";
 
 const StyledItem = styled.div`
 	display: flex;
@@ -15,17 +14,24 @@ const StyledItem = styled.div`
 
 const StyledSpan = styled.span`
 	margin-top: 5px;
-`
+`;
 
 function File({ item, openNotepad }) {
-	const {name, image } = item;
+	const { name, image } = item;
 
 	return (
 		<StyledItem>
-			<img src={image.default} alt="icon" onClick={() => openNotepad(item)} />
+			<img
+				className="notepad__item"
+				src={image.default}
+				alt="icon"
+				onClick={() => openNotepad(item)}
+			/>
+			<small className="notepad__item--text">Click to learn more</small>
+
 			<StyledSpan>{name}</StyledSpan>
 		</StyledItem>
-	)
+	);
 }
 
 export default File;
