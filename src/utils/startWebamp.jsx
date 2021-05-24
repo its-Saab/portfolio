@@ -6,6 +6,13 @@ export const startWebamp = () => {
         const webamp = new Webamp({
             initialTracks: [{
                 metaData: {
+                    artist: "GES",
+                    title: "När vi graver guld i USA"
+                },
+                url:  "https://res.cloudinary.com/dlvwrtpzq/video/upload/v1621866661/GES_-_N%C3%A4r_vi_gr_ver_guld_i_USA_jhvzeb.mp3",
+                duration: 367
+            },{
+                metaData: {
                     artist: "Shaggy",
                     title: "Boombastic"
                 },
