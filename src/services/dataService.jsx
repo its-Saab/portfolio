@@ -24,6 +24,22 @@ export default class DataService {
               content: {
                   resumeLink:"https://drive.google.com/file/d/1DaAQXEdqn-UfbDfIEn7Spb_yozg0EnEA/view?usp=sharing",
                   workExperience: [
+                    {
+                        jobTitle: "Full-Stack Developer",
+                        company: "TietoEvry",
+                        location: "Stockholm - Sweden",
+                        period: "Aug 2021 – Present",
+                        accomplishments: [
+                            "Full-stack development (JavaScript/Java).",
+                            "Development of APIs and Microservices.",
+                            "Build new applications.",
+                            "Containerize existing applications.",
+                            "Modernize legacy applications.",
+                            "Incident Management.",
+                            "Integration and Unit tests (Restassured, JUnit, Mockserver).",
+                            "Refactor, Review and Rebuild Applications."
+                        ]
+                    },
                       {
                           jobTitle: "Civil Engineer",
                           company: "B.B.",
@@ -109,12 +125,28 @@ export default class DataService {
               content: {
                   hard: [
                       {
-                          name: "JavaScript",
-                          img:require('../assets/javascript.png')
-                      },
-                      {
                           name: "Java",
                           img:require('../assets/java.png')
+                      },
+                      {
+                        name: "Docker",
+                        img:require('../assets/docker')
+                      },
+                      {
+                        name: "Spring boot",
+                        img:require('../assets/springboot.webp')
+                      },
+                      {
+                        name: "Apache Camel",
+                        img:require('../assets/camel.jpeg')
+                      },
+                      {
+                        name: "Portainer",
+                        img:require('../assets/portainer.webp')
+                      },
+                      {
+                          name: "JavaScript",
+                          img:require('../assets/javascript.png')
                       },
                       {
                           name: "React",
@@ -124,7 +156,6 @@ export default class DataService {
                           name: "Node.js",
                           img:require('../assets/node.png')
                       },
-
                       {
                           name: "Git",
                           img:require('../assets/git.png')
@@ -152,7 +183,7 @@ export default class DataService {
               content: {
                   emailText: "I'm available for hire, let's have a chat ",
                   email: "musaababs@gmail.com",
-                  socialText: "Or you can reach me out through social media:",
+                  socialText: "Or reach me out through social media:",
                   social: [
                       {
                           name: "FaLinkedin",
