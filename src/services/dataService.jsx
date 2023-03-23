@@ -183,7 +183,7 @@ export default class DataService {
               content: {
                   emailText: "I'm available for hire, let's have a chat ",
                   email: "musaababs@gmail.com",
-                  socialText: "Or you can reach me out through social media:",
+                  socialText: "Or reach me out through social media:",
                   social: [
                       {
                           name: "FaLinkedin",
